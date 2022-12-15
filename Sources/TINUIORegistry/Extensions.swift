@@ -11,7 +11,7 @@
 
 import Foundation
 
-#if os(macOS) || targetEnvironment(macCatalyst)
+//#if os(macOS) || targetEnvironment(macCatalyst)
 
 import IOKit
 
@@ -46,4 +46,4 @@ public extension io_registry_entry_t{
     }
 }
 
-#endif
+//#endif

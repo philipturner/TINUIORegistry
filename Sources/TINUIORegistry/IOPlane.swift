@@ -12,7 +12,7 @@
 
 import Foundation
 
-#if os(macOS)  || targetEnvironment(macCatalyst)
+//#if os(macOS)  || targetEnvironment(macCatalyst)
 
 import IOKit
 
@@ -52,4 +52,4 @@ public enum IOPlane: String, Equatable, CaseIterable, RawRepresentable{
     }
 }
 
-#endif
+//#endif

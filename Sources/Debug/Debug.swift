@@ -13,14 +13,14 @@ import Foundation
 
 //#if DEBUG
 
-#if os(macOS) || targetEnvironment(macCatalyst)
+//#if os(macOS) || targetEnvironment(macCatalyst)
 import TINUIORegistry
 import IOKit
-#endif
+//#endif
 
 //TODO: Activate or de-activate the dumps using command line args
 final class Debugs{
-    #if os(macOS) || targetEnvironment(macCatalyst)
+//    #if os(macOS) || targetEnvironment(macCatalyst)
     static var list: [() -> ()] = [debugProperty, debugPropertyTable, debugDisk]
     
     static func debugProperty(){
@@ -67,8 +67,8 @@ final class Debugs{
         
     }
     
-    #else
-    static var list: [() -> ()] = []
-    #endif
+//    #else
+//    static var list: [() -> ()] = []
+//    #endif
 }
 //#endif

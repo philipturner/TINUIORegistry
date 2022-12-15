@@ -11,7 +11,7 @@
 
 import Foundation
 
-#if os(macOS) || targetEnvironment(macCatalyst)
+//#if os(macOS) || targetEnvironment(macCatalyst)
 import IOKit
 
 ///type used to perform recursive iterations trought the IORegistry tree structure
@@ -97,4 +97,4 @@ public class IORecursiveIterator {
     }
 }
 
-#endif
+//#endif

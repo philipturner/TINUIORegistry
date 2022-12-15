@@ -11,7 +11,7 @@
 
 import Foundation
 
-#if os(macOS) || targetEnvironment(macCatalyst)
+//#if os(macOS) || targetEnvironment(macCatalyst)
 
 import SwiftPackagesBase
 
@@ -163,4 +163,4 @@ public struct BSDID: Codable, Hashable, Equatable, RawRepresentable{
     
 }
 
-#endif
+//#endif

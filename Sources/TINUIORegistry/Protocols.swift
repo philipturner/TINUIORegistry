@@ -12,7 +12,7 @@
 
 import Foundation
 
-#if os(macOS)  || targetEnvironment(macCatalyst)
+//#if os(macOS)  || targetEnvironment(macCatalyst)
 
 public protocol DiskPointer: Codable, Equatable{
     var DeviceIdentifier: BSDID { get }
@@ -28,4 +28,4 @@ public protocol DiskProtocol: DiskPointer{
     var name: String? { get }
 }
 
-#endif
+//#endif

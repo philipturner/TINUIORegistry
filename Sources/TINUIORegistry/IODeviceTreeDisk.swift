@@ -12,7 +12,7 @@
 
 import Foundation
 
-#if os(macOS) || targetEnvironment(macCatalyst)
+//#if os(macOS) || targetEnvironment(macCatalyst)
 
 public struct IODeviceTreeDisk: DiskProtocol{
     ///The disk/partition BSD name, this object provvides useful methods to gather some extra info about this device.
@@ -82,4 +82,4 @@ public struct IODeviceTreeDisk: DiskProtocol{
     
 }
 
-#endif
+//#endif

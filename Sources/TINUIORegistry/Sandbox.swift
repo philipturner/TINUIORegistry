@@ -12,7 +12,7 @@
 
 import Foundation
 
-#if os(macOS) || targetEnvironment(macCatalyst)
+//#if os(macOS) || targetEnvironment(macCatalyst)
 
 /*
 ///This class manages program sandbox detection code
@@ -35,4 +35,4 @@ internal final class Sandbox{
     
 }*/
 
-#endif
+//#endif

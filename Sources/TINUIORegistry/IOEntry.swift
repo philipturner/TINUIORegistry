@@ -11,7 +11,7 @@
 
 import Foundation
 
-#if os(macOS) || targetEnvironment(macCatalyst)
+//#if os(macOS) || targetEnvironment(macCatalyst)
 
 import IOKit
 import SwiftPackagesBase
@@ -344,4 +344,4 @@ public class IOEntry: FetchProtocolDataInstance{
     }*/
 }
 
-#endif
+//#endif
